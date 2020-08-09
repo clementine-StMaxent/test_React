@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
-import '../../components/formulaire/formulaire.css';
+import '../../components/client/client.css';
 
 export const Client = () => {
 
@@ -9,7 +9,7 @@ export const Client = () => {
     return (
         <Fragment>
 
-            <h3>Ajouter un client</h3>
+            <h3 className="title">Ajouter un client</h3>
             <div className="p-formgroup-inline">
                 <div className="p-field">
                     <label htmlFor="firstname5" className="p-sr-only">Nom</label>

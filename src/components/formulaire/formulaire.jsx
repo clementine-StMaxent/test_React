@@ -12,18 +12,17 @@ export const Inscription = () => {
 
     return (
         <Fragment>
-
-            <h3>Authentification du professionnel</h3>
+            <h3 className="title">Authentification du professionnel</h3>
             <div className="p-formgroup-inline">
                 <div className="p-field">
                     <label htmlFor="firstname5" className="p-sr-only">Nom</label>
-                    <InputText id="firstname5" type="text" placeholder="Nom" />
+                    <InputText id="firstname5" type="text" placeholder="Nom" defaultvalue="" />
                 </div>
                 <div className="p-field">
                     <label htmlFor="lastname5" className="p-sr-only">Prénom</label>
-                    <InputText id="lastname5" type="text" placeholder="Prénom" />
+                    <InputText id="lastname5" type="text" placeholder="Prénom" defaultvalue=""/>
                 </div>
-                <Button label="Connectez-vous" className="p-button-rounded" />
+                <Button label="Connectez-vous" className="p-button-rounded"  />
             </div>
         </Fragment>
     )

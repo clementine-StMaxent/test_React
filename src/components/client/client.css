@@ -1,4 +1,3 @@
-
 body {
     /* padding: 0.75em; */
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -9,17 +8,23 @@ body {
     font-size: 14px;
     margin-bottom: 50px;
 }
+
 .center-demo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .p-col-d {
     display: table-cell;
 }
 
-.p-formgroup-inline{
+.p-formgroup-inline {
     margin-left: 50px;
+}
+
+.p-button-rounded {
+    margin-left: 50px !important;
 }
 
 .title {
