@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/nova-light/theme.css';
 import 'primereact/resources/primereact.css';
@@ -11,7 +11,7 @@ export const Inscription = () => {
 
 
     return (
-        <>
+        <Fragment>
 
             <h3>Authentification du professionnel</h3>
             <div className="p-formgroup-inline">
@@ -25,7 +25,7 @@ export const Inscription = () => {
                 </div>
                 <Button label="Connectez-vous" className="p-button-rounded" />
             </div>
-        </>
+        </Fragment>
     )
 }
 

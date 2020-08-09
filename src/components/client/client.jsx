@@ -1,8 +1,4 @@
-import React from 'react';
-import 'primeicons/primeicons.css';
-import 'primereact/resources/themes/nova-light/theme.css';
-import 'primereact/resources/primereact.css';
-import 'primeflex/primeflex.css';
+import React, { Fragment } from 'react';
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 import '../../components/formulaire/formulaire.css';
@@ -11,7 +7,7 @@ export const Client = () => {
 
 
     return (
-        <>
+        <Fragment>
 
             <h3>Ajouter un client</h3>
             <div className="p-formgroup-inline">
@@ -35,7 +31,7 @@ export const Client = () => {
                 </div>
             </div>
             <Button label="Ajouter" className="p-button-rounded" />
-        </>
+        </Fragment>
     )
 }
 
